@@ -1,26 +1,25 @@
 package tasksheet_1_2_1;
 
 public class DateTask {
-    // Private instance variables for encapsulation
+    
     private byte day;
     private byte month;
     private short year;
 
-    // Constructors:
-    // The no-args constructor with chaining
+    
     public DateTask() {
-        this(1, 1, 1); // Calls parameterized constructor with default values
+        this(1, 1, 1); 
     }
 
-    // Constructor that takes 3 arguments
+    
     public DateTask(int d, int m, int y) {
         setDate(m, d, y);
     }
 
-    // Methods
+   
     @Override
     public String toString() {
-        return day + "/" + month + "/" + year; // Changed to "12/12/2012" format
+        return day + "/" + month + "/" + year; 
     }
 
     public void setDate(int m, int d, int y) {
