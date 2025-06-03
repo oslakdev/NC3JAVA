@@ -1,3 +1,4 @@
+package Task15package;
 abstract class AbstractShape implements Shape {
     protected String color;
     protected double length;
