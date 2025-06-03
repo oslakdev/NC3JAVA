@@ -32,7 +32,7 @@ public class Task131 {
         Afritada meal1 = new Afritada();
 
       
-        Afritada meal4 = new Caldereta();
+        //Afritada meal4 = new Caldereta();
       // display all ingredients at every object
         meal1.showIngredients();
 
